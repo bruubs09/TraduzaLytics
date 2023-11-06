@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body, h1, h2{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+.cabecalho ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.cabecalho a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+}
+
+#p1 {
+    text-align: center;
+}
+
+#parte2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 80px 250px;
+    padding: 20px;
+}
+
+#quem_somos {
+    grid-column: 1/1;
+    text-align: justify;
+    padding: 14px 16px;
+}
+
+#quem_somos_titulo {
+    text-align: center;
+    font-size: x-large;
+}
+
+
+#nossa_historia {
+    grid-column: 2/2;
+    text-align: justify;
+    padding: 14px 16px;
+    background-color: #A32DCE;
+    width: auto;
+    height: 320px;
+}
+
+#nossa_historia_titulo {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.parte3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#missao {
+    text-align: center;
+    grid-column: 1/1;
+    background-color: #c2bdc4;
+    width: auto;
+    height: 300px;
+}
+
+#missao_titulo {
+    text-align: center;
+    font-size: x-large;
+}
+
+#valores {
+
+    text-align: center;
+    background-color:#A32DCE;
+    grid-column: 2/2;
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+}
+
+#valores_titulo {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+#visao {
+    text-align: center;
+    grid-column: 3/3;
+    background-color: #c2bdc4;
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+}
+
+#visao_titulo {
+    text-align: center;
+    font-size: x-large;
+}
+
+#visao ul {
+    text-align: justify;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
